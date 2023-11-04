@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Romanesco&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Nosifer&family=Roboto+Condensed:ital@1&family=Romanesco&display=swap');
+        .background{
+            background-image: url(Images/Background2.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background-size: cover;
+            top: -20px;
+            display: fixed;
+            filter: blur(5px);
+            z-index: -1;
+            
+        }
+        .main{
+            
+            padding-left: 60px;
+            width: 450px;
+            margin-left: 350px;
+            margin-top: 100px;
+            border-radius: 20px;
+            
+            text-align: center;
+            padding-top: 60px;
+        }
+        .logo{
+            height: 70px;
+            border-radius: 20px;
+            margin-top: -30px;
+            
+        }
+        .wname{
+            color: rgb(15, 97, 221);
+            font-family:'Agbalumo',Nosifer;
+        }
+        label{
+            font-size: 20px;
+            padding-right: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 2;
+            font-weight: 500;
+            
+        }
+        input{
+            background: transparent;
+            height: 30px;
+            border-radius: 20px;
+        
+        }
+        
+       
+        .fp{
+            font-size: 12px;
+            padding-left: 150px;
+            text-decoration: none;
+        }
+        .lgbtn{
+            padding-left: 110px;
+        }
+        .loginbtn{
+            width: 170px;
+            height: 35px;
+            font-size: 15px;
+            border-radius: 20px;
+            padding-left: 10px;
+            background: transparent;
+        }
+        .loginbtn:hover{
+            background-color:blue;
+            cursor: pointer;
+        }
+        .crac{
+            margin-top: -20px;
+        }
+        .ca{
+            text-decoration: none;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="main">
+        
+        <div>
+            <img class="logo" src="Images/WhatsApp Image 2023-10-25 at 8.55.13 PM.jpeg" alt="logoimg">
+        </div>
+        <div class="wname">
+            <h1>Motor   Hub</h1>
+        </div>
+        <label class="input1">UserName</label>
+        <input value="Mobile/Gmail" name="username" class="userid">
+        <br><br>
+        <Label class="input2">Password</Label>
+        <input type="password" name="password" class="pass">
+        <br>
+        <a href="#" class="fp">Forgot Password?</a><br><br>
+        <div class="lgbtn">
+        <button class="loginbtn">Login</button>
+        </div>
+        <br><br>
+        <div class="crac">
+        <a href="#" class="ca">Create Acoount</a>
+        </div>
+    
+    </div>
+</body>
+</html>
