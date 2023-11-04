@@ -1,0 +1,296 @@
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;   
+    background-color:aqua;
+    background-size: cover;
+    z-index: -1;
+} 
+.path{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #e5e5e5;
+    z-index: -1;
+    clip-path: circle(520px at left);
+
+}
+
+.header{
+    color: red;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: right;
+    height: 60%;
+    width:0%;
+    margin-top: -150px;
+}
+.logoimg{
+    height: 55px;
+    width: 80px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.webname{
+    font-family: 'Romanesco', cursive;
+    color: black;
+    padding-left: 40px;
+}
+.ri-menu-line{
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.searchbar{
+    display: flex;
+    padding-left: 150px;
+    
+    width: 20em;
+
+    font-size: 17px;
+    size: 50px;
+    border-radius: 10px;
+}
+.searchicon{
+    outline: none;
+    border-radius: 10px;
+}
+.search-input{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+.ri-mic-fill{
+    border-radius: 10px;
+}
+.company{
+    padding-left: 20px;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+
+
+.product{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.drop{
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.signin{
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 20px;
+    align-items: center;
+
+}
+.signinbtn{
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.about{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.about button{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+}
+.product1{
+    padding-top: 160px;
+
+}
+.helmets{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+.helmets:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.desc1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-left: 120px;
+    color:black;
+    cursor: pointer;
+    
+}
+.buy {
+    padding-left: 100px;
+    margin-top: 20px;
+    
+    
+}
+.buy button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.jacket{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 100px;
+    
+}
+.jacket:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.buy1{
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.buy1 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.glove{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 100px;
+}
+.glove:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.buy2{
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.buy2 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.pads{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 100px;
+}
+.pads:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.buy3{
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.buy3 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.product2{
+    padding-top: 70px;
+}
+.cover{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 140px;
+}
+.cover:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.buy4{
+    padding-left: 190px;
+    margin-top: 20px;
+}
+.buy4 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.desc2{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-left: 170px;
+    color:black;
+    cursor: pointer;
+}
+.meter{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    padding-left: 140px;
+}
+.meter:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.buy5{
+    padding-left: 200px;
+    margin-top: 20px;
+}
+.buy5 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+.chain{
+    height: 250px;
+    width: 300px;
+    border-radius: 30px;
+    padding-left: 140px;
+}
+.chain:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.buy6{
+    padding-left: 240px;
+    margin-top: 20px;
+}
+.buy6 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+}

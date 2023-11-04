@@ -1,0 +1,182 @@
+ .background{
+    position: absolute;
+    height: 100%;
+    width: 100%;   
+    background-color: blue;
+    background-size: cover;
+    z-index: -1;
+} 
+.path{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #e5e5e5;
+    z-index: -1;
+    clip-path: circle(520px at left);
+
+}
+
+.header{
+    color: red;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: right;
+    height: 60%;
+    width:0%;
+    margin-top: -150px;
+}
+.logoimg{
+    height: 55px;
+    width: 80px;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+.webname{
+    font-family: 'Romanesco', cursive;
+    color: black;
+    padding-left: 40px;
+}
+.ri-menu-line{
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.searchbar{
+    display: flex;
+    padding-left: 150px;
+    
+    width: 20em;
+
+    font-size: 17px;
+    size: 50px;
+    border-radius: 10px;
+}
+.searchicon{
+    outline: none;
+    border-radius: 10px;
+}
+.search-input{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+.ri-mic-fill{
+    border-radius: 10px;
+}
+.company{
+    padding-left: 20px;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+
+.product{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.drop{
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.signin{
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 20px;
+    align-items: center;
+
+}
+.signinbtn{
+    align-items: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.about{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.about button{
+    height: 35px;
+    width: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.helmet{
+    padding-top: 160px;
+
+}
+.helmet1{
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+.helmet1:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.desc{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-left: 120px;
+    color:black;
+    font-size: 30px;
+}
+.buy {
+    padding-left: 150px;
+    margin-top: 20px;
+    
+}
+.buy button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bike1{
+    padding-top: 160px;
+    padding-left: 50px;
+}
+
+.bike{
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+.bike:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
+.others{
+    padding-top: 160px;
+    padding-left: 50px;
+}
+.jacket{
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+.jacket:hover{
+    transform: translateX(20px);
+    transition-delay: 1s;
+}
